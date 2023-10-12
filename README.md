@@ -19,3 +19,28 @@ A good example of when to use this is when you forget to preface a command with 
 sudo !!
 ```
 
+This command takes the last part of the previous command and substitute it into the current command
+```
+!$
+```
+An example of how this could be used, clone to a particular local directory and then cd into that directory:
+```
+git clone git@github.come/rjhoppe/reponame local_directory
+cd !$
+```
+
+Similar to !$ this command lets you cycle through the last parts of previous commands
+```
+ALT+.
+```
+
+This command produces a Tab character in your terminal
+```
+CTRL+V
+```
+
+This command will kill programs / commands that maybe can't be killed by CTRL+C. This should be used as a last resort and isn't always safe.
+```
+CTRL+\
+```
+
