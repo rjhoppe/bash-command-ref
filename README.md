@@ -43,4 +43,3 @@ This command will kill programs / commands that maybe can't be killed by CTRL+C.
 ```
 CTRL+\
 ```
-
