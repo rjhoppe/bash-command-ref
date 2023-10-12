@@ -3,6 +3,13 @@ EX:
 ```
 ls * | xargs
 ```
+Validate a command before running it and make sure it is safe.
+EX:
+```
+find -maxdepth 1 -type f -print0 | xargs -0 echo rm
+```
+By putting an 'echo' in front of the rm, you will see exactly what the command will delete
+when you remove the echo.
 
 Run flake8 (Python linter) on a series of filtered Python files:
 ```
