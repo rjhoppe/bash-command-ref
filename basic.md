@@ -38,7 +38,11 @@ This command produces a Tab character in your terminal
 ```
 CTRL+V
 ```
-
+Wraps text output at a certain character limit --spaces command will respect word boundaries
+```
+[command that outputs string] | fold -w 40
+[command that outputs string] | fold -w 40 --spaces
+```
 This command will kill programs / commands that maybe can't be killed by CTRL+C. This should be used as a last resort and isn't always safe.
 ```
 CTRL+\
