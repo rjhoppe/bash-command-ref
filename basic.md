@@ -85,9 +85,10 @@ find /etc -type d
 find /etc -type d -name [directory name] 
 ```
 
-Configure command aliases to run your own shorthand for more verbose bash comamnds
+Configure command aliases to run your own shorthand for more verbose bash comamnds (need to run the source command to refresh the .bashrc file)
 ```
 sudo nano ~/.bashrc
 alias c='clear'
 alias sysboost='sudo apt update && sudo apt upgrade -y && sudo apt autoclean'
+source ~/.bashrc
 ```
