@@ -38,12 +38,49 @@ This command produces a Tab character in your terminal
 ```
 CTRL+V
 ```
+
 Wraps text output at a certain character limit --spaces command will respect word boundaries
 ```
 [command that outputs string] | fold -w 40
 [command that outputs string] | fold -w 40 --spaces
 ```
+
 This command will kill programs / commands that maybe can't be killed by CTRL+C. This should be used as a last resort and isn't always safe.
 ```
 CTRL+\
+```
+
+Search for a particular command or command keyword in your Linux CLI history
+```
+history | grep [command keywork, i.e. 'networks']
+```
+
+Difference between ';', '&&', and '||' when chaining multiple bash commands (&& is most likely what you are looking for)
+```
+; - Both commands run
+&& - When first command passes, then onto the next command
+|| - When first command fails, then go onto the next command
+```
+
+Seach for a particular file name in all directories
+```
+find . -name [file name]
+find . -name main.py
+```
+
+Search for a particular file name pattern in a particular directory
+```
+sudo find [directory] -name *[pattern]
+sudo find /etc -name *.conf
+```
+
+Search for file names with particular permissions associated with it
+```
+find . -perm 664
+```
+
+Search for particular directories or subdirectories
+```
+find /etc -type d
+find /etc -type d -name [directory name] 
 ```
