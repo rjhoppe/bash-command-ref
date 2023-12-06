@@ -92,3 +92,8 @@ alias c='clear'
 alias sysboost='sudo apt update && sudo apt upgrade -y && sudo apt autoclean'
 source ~/.bashrc
 ```
+
+Example of how you might use grep to search for a file or directory name prefix
+```
+ls | grep '^[search term]'
+```
