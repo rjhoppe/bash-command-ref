@@ -17,7 +17,6 @@ repos:
     -   id: check-json
     -   id: check-merge-conflict
     -   id: trailing-whitespace
-    -   id: detect-aws-credentials
     -   id: check-ast
 ```
 ## 3. Run the pre-commit install to set up the git hook scripts
