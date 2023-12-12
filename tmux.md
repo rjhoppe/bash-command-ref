@@ -29,3 +29,8 @@ Or
 ```
 tmux split window
 ```
+
+Kill current tmux session
+```
+tmux kill-session
+```
