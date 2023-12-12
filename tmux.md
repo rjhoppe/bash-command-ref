@@ -25,3 +25,7 @@ Split sessions into two panes
 ```
 Ctrl+B + %
 ```
+Or
+```
+tmux split window
+```
