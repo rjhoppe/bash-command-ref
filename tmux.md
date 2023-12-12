@@ -27,8 +27,26 @@ Ctrl+B + %
 ```
 Or
 ```
-tmux split window
+tmux split-window
+tmux split-window -hf
 ```
+
+Switch between windows
+```
+Ctrl+B + Arrow Left/Right
+```
+NOTE: Press Ctrl+B then release then press either arrow key
+
+Change size of split windows
+```
+Ctrl+B + Arrow Left/Right
+```
+
+Add another window split on your right side
+```
+Ctrl+B + '
+```
+
 
 Kill current tmux session
 ```
