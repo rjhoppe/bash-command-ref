@@ -1,6 +1,11 @@
 # bash-command-ref
 A list of some helpful commands to remember when I write bash
 
+Remove all text/commands currently in your shell
+```
+Ctrl+U
+```
+
 Reverse search for previous bash commands in your terminal history.
 ```
 Ctrl+R
