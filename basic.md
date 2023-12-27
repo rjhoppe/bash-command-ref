@@ -102,3 +102,18 @@ Example of how you might use grep to search for a file or directory name prefix
 ```
 ls | grep '^[search term]'
 ```
+
+Push and pop directories off the stack and allow Linux to keep track of your directory stack, so that you can effectively 'pop' out of it when
+you need to. This is particularly handy when you are writing bash scripts
+Instead of:
+```
+cd ../../../
+```
+Try this
+```
+pushd foo
+```
+And then pop off the stack when you're finished:
+```
+popd
+```
