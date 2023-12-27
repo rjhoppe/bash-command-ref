@@ -102,3 +102,9 @@ Example of how you might use grep to search for a file or directory name prefix
 ```
 ls | grep '^[search term]'
 ```
+
+Fix command - this will trigger an editor pop-up that will allow you to edit your typo'd command
+Quit the editor to run the fc'd command
+```
+fc
+```
