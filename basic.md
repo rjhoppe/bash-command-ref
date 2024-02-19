@@ -30,6 +30,12 @@ Use 'fg' to bring that same process back to the foreground
 fg
 ```
 
+Open up your current cmd in a text editor to make editing easier
+```
+Ctrl+X Ctrl+E
+```
+Save your changes to see your updates in the shell
+
 Run "Fixed Command" (fc) after running an incorrect command to open up the previous command in a text editor.
 ```
 fc
