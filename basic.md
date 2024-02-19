@@ -6,6 +6,11 @@ Shows full path to current directory
 pwd
 ```
 
+Lets you view longer text files in a scrollable format
+```
+less [file name]
+```
+
 Remove all text/commands currently in your shell
 ```
 Ctrl+U
