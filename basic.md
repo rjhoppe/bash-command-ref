@@ -21,6 +21,15 @@ Reverse search for previous bash commands in your terminal history.
 Ctrl+R
 ```
 
+Move current process to the background
+```
+Ctrl+Z
+```
+Use 'fg' to bring that same process back to the foreground
+```
+fg
+```
+
 Run "Fixed Command" (fc) after running an incorrect command to open up the previous command in a text editor.
 ```
 fc
