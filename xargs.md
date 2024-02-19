@@ -2,7 +2,7 @@ xargs will take the content of whatever you pipe into it and split it into diffe
 For each chunk, it will be passed in as an argument to whatever cmd you specify
 
 Very handy when you grab a big list of files and filter it down to apply a certain operation to
-those filtered files.
+those filtered files. Can be used to create pipelines.
 
 Using xargs without specifying an operator will default to echo.
 EX:
