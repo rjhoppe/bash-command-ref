@@ -156,7 +156,7 @@ Use 'fzf' to activate the 'fuzzy finder'
 fzf
 ```
 
-List all the cmds you can run
+List all the cmds you can run (this can take a couple of seconds to run)
 ```
 compgen -c | less
 ```
