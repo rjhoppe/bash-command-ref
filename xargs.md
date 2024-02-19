@@ -1,3 +1,9 @@
+xargs will take the content of whatever you pipe into it and split it into different chunks
+For each chunk, it will be passed in as an argument to whatever cmd you specify
+
+Very handy when you grab a big list of files and filter it down to apply a certain operation to
+those filtered files.
+
 Using xargs without specifying an operator will default to echo.
 EX:
 ```
