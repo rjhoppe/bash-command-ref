@@ -127,3 +127,26 @@ And then pop off the stack when you're finished:
 ```
 popd
 ```
+
+Learn more about a particular bash cmd
+```
+man [cmd]
+```
+Or try
+```
+tldr [cmd]
+```
+
+Sort data in a file (will default to alphabetical)
+```
+sort [file name]
+```
+Or use the -n argument for 'numeric'
+```
+sort -n [file name]
+```
+
+When looking at logs use this cmd to automatically see new log entries (lines) as they are created
+```
+tail -f log
+```
