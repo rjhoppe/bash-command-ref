@@ -158,5 +158,5 @@ fzf
 
 List all the cmds you can run
 ```
-comgen -c | less
+compgen -c | less
 ```
