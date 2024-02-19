@@ -15,4 +15,16 @@ alias fman="compgen -c | fzf | xargs man"
 ```
 Don't forget to add this to your bashrc or zrc file for enduring, global usage!
 
+List all available Kubernetes pods and then select the desired pod to pass over to kubectl to describe it
+```
+kubectl get pods -A --no-headers | fzf | awk `{print $2, $1}' | xargs -n 2 sh -c 'kubectl describe pod $0 -n $1'
+```
+
+Find the biggest files in a directory and return the path
+```
+du -ah . | sort -hr | head -n 10
+```
+du = finds file size
+ah argument = reverse order
+hr argument = human readable
 
