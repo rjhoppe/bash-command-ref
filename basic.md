@@ -150,3 +150,13 @@ When looking at logs use this cmd to automatically see new log entries (lines) a
 ```
 tail -f log
 ```
+
+Use 'fzf' to activate the 'fuzzy finder'
+```
+fzf
+```
+
+List all the cmds you can run
+```
+comgen -c | less
+```
