@@ -24,7 +24,7 @@ Find the biggest files in a directory and return the path
 ```
 du -ah . | sort -hr | head -n 10
 ```
-du = finds file size
-ah argument = reverse order
-hr argument = human readable
+du = finds file size __
+ah argument = reverse order __
+hr argument = human readable __
 
