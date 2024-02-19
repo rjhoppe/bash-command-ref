@@ -1,6 +1,11 @@
 # bash-command-ref
 A list of some helpful commands to remember when I write bash
 
+Shows full path to current directory
+```
+pwd
+```
+
 Remove all text/commands currently in your shell
 ```
 Ctrl+U
