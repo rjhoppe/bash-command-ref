@@ -28,3 +28,7 @@ du = finds file size <br />
 ah argument = reverse order <br />
 hr argument = human readable <br />
 
+History of most used cmds, sorted by most to least used
+```
+history | awk '{print $2}' | sort | uniq -c | sort -nr | head -10
+```
