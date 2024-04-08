@@ -212,3 +212,10 @@ EX:
 mkdir destination-folder
 tar -xzf archive.tar.gz -C destination-folder/
 ```
+
+Output the content of a file with cat
+Note: Notice this is a less than sign versus an arrow
+EX:
+```
+cat < new-file.txt
+```
