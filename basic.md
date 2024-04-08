@@ -206,7 +206,7 @@ tar -zcf archive.tar.gz file1.txt file2.txt folder1
 
 Unpack a zipped file to a destination
 Notice we swapped c for x in the flags. This is because we went from creating to extracting. 
-And then the -C is just giving it a destination folder to extract it.
+And then the -C is just giving it a destination folder to extract it. The destination MUST EXIST
 EX:
 ```
 mkdir destination-folder
