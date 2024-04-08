@@ -175,3 +175,40 @@ List all the cmds you can run (this can take a couple of seconds to run)
 ```
 compgen -c | less
 ```
+
+View the last run cmds in your bash history
+```
+tail ~/.bash_history
+```
+
+Clear all input in your bash terminal
+```
+CTRL+U
+```
+
+A more detailed ls output
+```
+ls -lsah
+```
+
+Move or rename a file in place
+EX:
+```
+mv file.txt newname-txt
+```
+
+Zip files with tar and compress the zipped file
+Note: files are not automatically compressed with tar by default
+EX:
+```
+tar -zcf archive.tar.gz file1.txt file2.txt folder1
+```
+
+Unpack a zipped file to a destination
+Notice we swapped c for x in the flags. This is because we went from creating to extracting. 
+And then the -C is just giving it a destination folder to extract it.
+EX:
+```
+mkdir destination-folder
+tar -xzf archive.tar.gz -C destination-folder/
+```
