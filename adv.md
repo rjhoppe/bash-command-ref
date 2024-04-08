@@ -32,3 +32,9 @@ History of most used cmds, sorted by most to least used
 ```
 history | awk '{print $2}' | sort | uniq -c | sort -nr | head -10
 ```
+
+Redirect stndout to one place and stnerror to another place
+EX:
+```
+ls -lsash 1> ls-stdnout.txt 2> ls-stderror.txt
+```
