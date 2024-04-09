@@ -219,3 +219,8 @@ EX:
 ```
 cat < new-file.txt
 ```
+
+List all Linux users on your machine or VM
+```
+cat /etc/passwd
+```
