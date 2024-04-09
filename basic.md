@@ -254,7 +254,7 @@ ps aux | grep [subsearch]
 
 Look at your active jobs
 ```
-jobs
+jobs -l
 ```
 Send a particular job to the background
 ```
