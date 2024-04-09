@@ -224,3 +224,12 @@ List all Linux users on your machine or VM
 ```
 cat /etc/passwd
 ```
+
+Add a Linux user to an existing user group
+```
+sudo usermod -aG [user group] [username]
+```
+EX:
+```
+sudo usermod -aG sudo rick
+```
