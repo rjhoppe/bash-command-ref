@@ -238,3 +238,16 @@ Print all environment vars
 ```
 printenv
 ```
+
+Shows you all the processes that all users on the server are running
+```
+ps aux
+```
+To make the output more manageable
+```
+ps aux | less
+```
+OR
+```
+ps aux | grep [subsearch]
+```
