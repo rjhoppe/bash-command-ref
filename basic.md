@@ -251,3 +251,20 @@ OR
 ```
 ps aux | grep [subsearch]
 ```
+
+Look at your active jobs
+```
+jobs
+```
+Send a particular job to the background
+```
+bg [jobID]
+```
+EX
+```
+bg 1
+```
+Bring a job from the background to the foreground
+```
+fg 1
+```
