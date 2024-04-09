@@ -233,3 +233,8 @@ EX:
 ```
 sudo usermod -aG sudo rick
 ```
+
+Print all environment vars
+```
+printenv
+```
