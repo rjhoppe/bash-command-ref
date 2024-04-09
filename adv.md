@@ -38,3 +38,8 @@ EX:
 ```
 ls -lsash 1> ls-stdout.txt 2> ls-stderror.txt
 ```
+
+Check shell type
+```
+cat /etc/issue
+```
