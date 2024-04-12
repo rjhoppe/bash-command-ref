@@ -273,3 +273,12 @@ Removes unused dependencies
 ```
 sudo apt autoremove
 ```
+
+Give execute permission to a file
+```
+chmod +x [filename]
+```
+OR
+```
+chmod 700 [filename]
+```
