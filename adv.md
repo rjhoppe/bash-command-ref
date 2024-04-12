@@ -43,3 +43,9 @@ Check shell type
 ```
 cat /etc/issue
 ```
+
+Use the test cmd to run various tests (i.e. is A = B?, etc.)
+Learn about how you can use the cmd by running:
+```
+man test
+```
