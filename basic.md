@@ -268,3 +268,8 @@ Bring a job from the background to the foreground
 ```
 fg 1
 ```
+
+Removes unused dependencies
+```
+sudo apt autoremove
+```
