@@ -4,6 +4,7 @@
 DESTINATION=$1
 read -p "enter a file prefix: " FILE_PREFIX
 
+# Using the test function to test for empty string
 # z flag = empty string
 if [ -z $DESTINATION ]; then
   echo "no path provided, defaulting to ~/temp"
