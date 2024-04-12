@@ -6,7 +6,7 @@ Ubuntu (but not all Linux distros) have some preconfigured folders that you can 
 
 This will run your files on time cadence specified in the folder name
 
-Launch a crontab in an editor of your choice (will run as root)
+Launch a crontab in an editor of your choice - might default to running as root
 ```
 crontab -e
 ```
