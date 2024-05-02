@@ -282,3 +282,8 @@ OR
 ```
 chmod 700 [filename]
 ```
+
+Create a new .prettierrc file and pipe in the default setting of "{}"
+```
+touch .prettierrc && echo "{}" | cat > .prettierrc
+```
