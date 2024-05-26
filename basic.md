@@ -287,3 +287,13 @@ Create a new .prettierrc file and pipe in the default setting of "{}"
 ```
 touch .prettierrc && echo "{}" | cat > .prettierrc
 ```
+
+Change shell to zsh
+```
+chsh -s $(which zsh)
+```
+
+Change shell back to bash
+```
+chsh -s /bin/bash
+```
